@@ -1,0 +1,8 @@
+{
+  "extends": ["plugin:adonis/typescriptApp", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "@typescript-eslint/no-explicit-any": 2 // 1=waring e 2=erro
+  }
+}
